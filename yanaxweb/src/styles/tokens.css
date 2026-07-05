@@ -1,0 +1,39 @@
+/*
+  Tokens de diseño de Yanax Studio.
+  Importar una sola vez en el punto de entrada de la app (ej: main.jsx o App.jsx):
+    import './styles/tokens.css';
+
+  El morado (--color-morado) es un valor de referencia — reemplázalo por el
+  hex exacto de tu manual de marca cuando lo tengas a mano. Todo lo demás
+  en la app lo consume desde esta variable, así que cambiarlo aquí actualiza
+  todo el sitio.
+*/
+
+:root {
+  /* Fondo y superficies */
+  --color-hueso: #F7F5F0;
+  --color-hueso-secundario: #F0EDE6;
+  --color-gris-oscuro: #333335;
+  --color-gris-oscuro-secundario: #3E3E41;
+  --color-linea-gris: #D9D6CE;
+
+  /* Texto */
+  --color-tinta: #1E1E20;
+  --color-tinta-suave: #5B5A57;
+  --color-tinta-inversa: #F3F1EC;
+  --color-tinta-inversa-suave: #B8B6B0;
+
+  /* Acento de marca — usar solo en detalles, nunca como color protagonista */
+  --color-morado: #5D4E86;
+  --color-morado-suave: #EDE9F5;
+  --color-morado-profundo: #3E3360;
+  --color-morado-tenue: #B7A9E3;
+
+  /* Tipografía */
+  --fuente-titulo: 'Fraunces', serif;
+  --fuente-texto: 'Inter', sans-serif;
+
+  /* Espaciados y radios reutilizables */
+  --radio-base: 6px;
+  --espaciado-seccion-horizontal: 6%;
+}

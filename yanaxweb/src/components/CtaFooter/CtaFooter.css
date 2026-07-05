@@ -1,0 +1,114 @@
+.cta-seccion {
+  background: var(--color-hueso);
+  padding: 160px var(--espaciado-seccion-horizontal) 80px;
+  text-align: center;
+}
+
+.cta-etiqueta {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  color: var(--color-morado);
+}
+
+.cta-seccion h2 {
+  font-family: var(--fuente-titulo);
+  font-weight: 500;
+  font-size: clamp(32px, 5vw, 56px);
+  max-width: 720px;
+  margin: 0 auto 24px;
+  color: var(--color-tinta);
+}
+
+.cta-seccion p {
+  font-family: var(--fuente-texto);
+  color: var(--color-tinta-suave);
+  max-width: 460px;
+  margin: 0 auto 36px;
+  font-size: 15.5px;
+}
+
+.cta-boton {
+  display: inline-block;
+  background: var(--color-morado);
+  color: #fff;
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  transition: background 0.25s ease;
+}
+
+.cta-boton:hover {
+  background: var(--color-morado-profundo);
+}
+
+.pie-pagina {
+  background: var(--color-gris-oscuro);
+  color: var(--color-tinta-inversa-suave);
+  padding: 60px var(--espaciado-seccion-horizontal) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.pie-superior {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(243, 241, 236, 0.12);
+}
+
+.pie-columna h4 {
+  font-family: var(--fuente-texto);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 14px;
+  color: var(--color-tinta-inversa);
+}
+
+.pie-columna a {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: var(--color-tinta-inversa-suave);
+}
+
+.pie-marca {
+  font-family: var(--fuente-titulo);
+  font-size: clamp(70px, 14vw, 220px);
+  color: var(--color-tinta-inversa);
+  opacity: 0.06;
+  text-align: center;
+  line-height: 1;
+  padding: 20px 0 0;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.pie-inferior {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0;
+  color: var(--color-tinta-inversa-suave);
+}
+
+@media (max-width: 767px) {
+  .cta-seccion {
+    padding: 100px 24px 60px;
+  }
+
+  .pie-pagina {
+    padding: 48px 24px 0;
+  }
+
+  .pie-marca {
+    font-size: clamp(50px, 20vw, 90px);
+  }
+}
